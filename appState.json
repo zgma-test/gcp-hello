@@ -15,7 +15,7 @@
           "column": 2
         },
         "config": {
-          "runtime": "nodejs8",
+          "runtime": "nodejs14",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -69,8 +69,8 @@
         "isRemovable": true,
         "filePath": "hthth.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 3,
+          "column": 54
         },
         "config": {
           "runtime": "nodejs14",
@@ -86,7 +86,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1625214993945,
+        "lastUpdated": 1625215049718,
         "testCases": {
           "5d6ca0c8-cece-4638-94ec-0a36784c9446": {
             "id": "5d6ca0c8-cece-4638-94ec-0a36784c9446",
@@ -113,7 +113,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": "CloudFormation",
+      "dialect": "Deployment Manager",
       "definitions": null
     },
     "envVariables": [],
@@ -130,7 +130,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1625214995279
+    "lastSave": 1625215100301
   },
   "VCS_STATE": {
     "provider": "GitHub",
