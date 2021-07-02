@@ -1,0 +1,142 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "dc9acc92-bd15-4aec-a2c3-c4aa27bf60c8": {
+        "id": "dc9acc92-bd15-4aec-a2c3-c4aa27bf60c8",
+        "parent": null,
+        "name": "gcp-hello.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcp-hello.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcpHello"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1625214601576,
+        "testCases": {
+          "185b5fe8-088d-4a7f-9867-2fff7f2b0ea2": {
+            "id": "185b5fe8-088d-4a7f-9867-2fff7f2b0ea2",
+            "name": "Test event",
+            "functionId": "dc9acc92-bd15-4aec-a2c3-c4aa27bf60c8",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "bbb33e28-a078-4525-b6ba-0688fd5cec2f": {
+        "id": "bbb33e28-a078-4525-b6ba-0688fd5cec2f",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "218285b0-6302-4a30-931b-3485b0771b55": {
+        "id": "218285b0-6302-4a30-931b-3485b0771b55",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "50cf70e3-1d7a-447d-9dc7-5e3517bf8387": {
+        "id": "50cf70e3-1d7a-447d-9dc7-5e3517bf8387",
+        "parent": null,
+        "name": "hthth.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hthth.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "hthth"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1625214993945,
+        "testCases": {
+          "5d6ca0c8-cece-4638-94ec-0a36784c9446": {
+            "id": "5d6ca0c8-cece-4638-94ec-0a36784c9446",
+            "name": "Test event",
+            "functionId": "50cf70e3-1d7a-447d-9dc7-5e3517bf8387",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "dc9acc92-bd15-4aec-a2c3-c4aa27bf60c8",
+      "50cf70e3-1d7a-447d-9dc7-5e3517bf8387"
+    ],
+    "currentFileId": "50cf70e3-1d7a-447d-9dc7-5e3517bf8387",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.2",
+    "projectName": "gcp-hello",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1625214995279
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcp-hello",
+      "url": "https://github.com/zgma-test/gcp-hello"
+    }
+  }
+}
